@@ -20,7 +20,6 @@ An AI-powered system for analyzing earnings call transcripts to extract key insi
 ├── api/
 │   ├── analysis.py        # Analysis functions using OpenAI
 │   └── streamlit_app.py   # Streamlit web application
-├── Earning_Call_Intelligence_System/
 │   ├── LICENSE
 │   └── README.md
 └── earnings_calls.db      # SQLite database (generated)
