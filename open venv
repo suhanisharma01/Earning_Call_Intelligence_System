@@ -1,0 +1,4 @@
+ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+ .\.venv\Scripts\Activate.ps1
+python -m uvicorn API:app --reload --host 127.0.0.1 --port 8000
+streamlit run api/streamlit_app.py

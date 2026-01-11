@@ -1,0 +1,6 @@
+openai>=1.0.0
+$env:ANALYSIS_PROVIDER="openai"
+$env:OPENAI_API_KEY="YOUR_KEY"
+$env:OPENAI_MODEL="gpt-4o-mini"
+pip install yfinance
+pip install --upgrade openai
